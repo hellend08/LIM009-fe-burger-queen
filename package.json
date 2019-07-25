@@ -7,6 +7,8 @@
     "test": "test"
   },
   "scripts": {
+    "build": "babel src -d lib",
+    "eslint": "eslint .",
     "test": "jest --coverage"
   },
   "repository": {
@@ -20,6 +22,7 @@
   },
   "homepage": "https://github.com/hellend08/LIM009-fe-burger-queen#readme",
   "devDependencies": {
+    "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
     "eslint": "^6.0.1",
